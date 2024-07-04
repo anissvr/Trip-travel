@@ -6,4 +6,23 @@
   .menu {
     display: none;
   }
+  .text-area h1 {
+    font-size: 40px;
+    font-weight: 700;
+  }
+  .form-area form {
+    display: flex;
+    flex-direction: column;
+  }
+  .form-area {
+    width: 90%;
+    margin: 0 auto;
+  }
+  form select,
+  input,
+  .esp {
+    width: 80%;
+    padding: 10px;
+    margin: 10px auto;
+  }
 }
