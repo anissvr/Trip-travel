@@ -231,3 +231,42 @@ input {
   font-weight: 400;
   font-size: 25px;
 }
+
+/* ===========chooce us============ */
+.tesmonial-card {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+.tesmonial-card > div {
+  width: 500px;
+  padding: 25px;
+  margin: 20px;
+  border-radius: 5px;
+}
+
+.tesmonial-card > div i,
+.third-tes i {
+  font-size: 40px;
+  color: #ff5400;
+}
+.tesmonial-card > div h3,
+.third-tes h3 {
+  margin: 20px 0;
+}
+.first-tes {
+  background-color: #fefbf7;
+}
+.second-tes {
+  background-color: #f4fcfe;
+}
+.third-tes {
+  background-color: #fdf6f6;
+  width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 5px;
+}
+/* #esp-tes {
+  margin-left: 200px;
+} */
