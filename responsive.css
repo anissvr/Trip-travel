@@ -40,7 +40,8 @@
     display: flex;
     flex-direction: column;
   }
-  .tesmonial-card {
+  .tesmonial-card,
+  .blog-area {
     display: flex;
     flex-direction: column;
     /* display: none; */

@@ -267,6 +267,22 @@ input {
   padding: 20px;
   border-radius: 5px;
 }
-/* #esp-tes {
-  margin-left: 200px;
-} */
+/* ===========blog======== */
+.blog-area {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+.blog-card img {
+  width: 100%;
+  height: 200px;
+}
+#btn {
+  text-decoration: none;
+  padding: 10px 20px;
+  background-color: #ff5400;
+  color: white;
+  display: inline-block;
+  margin-top: 10px;
+  border-radius: 5px;
+}
