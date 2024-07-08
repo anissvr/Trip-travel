@@ -338,3 +338,17 @@ hr {
   transform: rotate(-30deg);
   color: white;
 }
+footer {
+  background-color: #f3f3f4;
+  padding: 30px;
+  text-align: center;
+}
+.footer-text p {
+  text-align: center;
+  padding: 10px 200px;
+  font-size: 13px;
+}
+.social-icon i {
+  font-size: 30px;
+  margin: 10px;
+}

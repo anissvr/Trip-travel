@@ -55,4 +55,7 @@
   .right-img {
     height: 386px;
   }
+  .footer-text p {
+    padding: 10px;
+  }
 }
