@@ -11,7 +11,8 @@
     font-weight: 700;
   }
   .form-area form,
-  .responsive {
+  .responsive,
+  .form-area-2 {
     display: flex;
     flex-direction: column;
   }
@@ -19,7 +20,7 @@
     width: 90%;
     margin: 0 auto;
   }
-  form select,
+  .form-area form select,
   input,
   .esp {
     width: 80%;
@@ -44,12 +45,14 @@
   .blog-area {
     display: flex;
     flex-direction: column;
-    /* display: none; */
   }
   .tesmonial-card > div,
   .third-tes {
     width: 90%;
     margin: 10px;
     padding: 10px;
+  }
+  .right-img {
+    height: 386px;
   }
 }
